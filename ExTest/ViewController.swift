@@ -6,14 +6,12 @@
 //
 
 import UIKit
+import ExSample
 
 class ViewController: UIViewController {
-
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
+    a1() // a1!
   }
-
-
 }
 

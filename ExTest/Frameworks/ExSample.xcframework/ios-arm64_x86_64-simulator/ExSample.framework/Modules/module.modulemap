@@ -1,0 +1,11 @@
+framework module ExSample {
+  umbrella header "ExSample.h"
+
+  export *
+  module * { export * }
+}
+
+module ExSample.Swift {
+    header "ExSample-Swift.h"
+    requires objc
+}
